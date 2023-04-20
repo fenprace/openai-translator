@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name       openai-translator
 // @namespace  fenprace
-// @version    0.0.0
-// @author     monkey
+// @version    0.0.2
+// @author     Zhuo FENG
 // @license    MIT
-// @icon       https://vitejs.dev/logo.svg
+// @icon       https://raw.githubusercontent.com/fenprace/openai-translator/master/src/assets/openai-translator.svg
 // @match      *://*/*
 // @require    https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js
 // @require    https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js

@@ -9,7 +9,8 @@ export default defineConfig({
     monkey({
       entry: 'src/main.tsx',
       userscript: {
-        icon: 'https://vitejs.dev/logo.svg',
+        icon: 'https://raw.githubusercontent.com/fenprace/openai-translator/master/src/assets/openai-translator.svg',
+        author: 'Zhuo FENG',
         namespace: 'fenprace',
         match: ['*://*/*'],
         license: 'MIT',
