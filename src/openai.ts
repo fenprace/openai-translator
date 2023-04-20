@@ -18,8 +18,6 @@ const request = <T>({
   data,
   method,
 }: IRequestProps): Promise<TResponse<T>> => {
-  console.log(data)
-
   const apiKey = getApiKey()
   return new Promise((resolve, reject) => {
     GM_xmlhttpRequest({
@@ -51,7 +49,6 @@ export const completions = async (
     url: 'https://api.openai.com/v1/completions',
   })
 
-  console.log(response)
   const { responseText } = response
   const openAiResponse = JSON.parse(responseText)
   return openAiResponse
@@ -71,7 +68,6 @@ export const chat = async (
     url: 'https://api.openai.com/v1/chat/completions',
   })
 
-  console.log(response)
   const { responseText } = response
   const openAiResponse = JSON.parse(responseText)
   return openAiResponse
