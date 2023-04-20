@@ -12,6 +12,7 @@ export default defineConfig({
         icon: 'https://vitejs.dev/logo.svg',
         namespace: 'fenprace',
         match: ['*://*/*'],
+        license: 'MIT',
       },
       build: {
         externalGlobals: {

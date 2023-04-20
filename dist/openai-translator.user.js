@@ -3,6 +3,7 @@
 // @namespace  fenprace
 // @version    0.0.0
 // @author     monkey
+// @license    MIT
 // @icon       https://vitejs.dev/logo.svg
 // @match      *://*/*
 // @require    https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js
