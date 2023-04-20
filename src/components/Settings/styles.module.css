@@ -1,0 +1,66 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  background-color: var(--ot-bg-color);
+  color: var(--ot-fg-color);
+  border: 4px solid var(--ot-bg-color);
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  min-width: 240px;
+  max-width: 640px;
+  margin: 0 24px;
+}
+
+.button {
+  background-color: var(--ot-button-bg-primary);
+  border-radius: 8px;
+  color: var(--ot-button-fg);
+  font-size: 16px;
+  padding: 4px 8px;
+  border: none;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--ot-button-bg-active);
+}
+
+.input {
+  font-size: 16px;
+  background-color: white;
+  color: green;
+  border: none;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin: 4px 0 0 0;
+  padding: 4px 8px;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.spacer {
+  margin: 0;
+  padding: 0;
+  height: 16px;
+}

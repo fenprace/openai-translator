@@ -1,0 +1,18 @@
+:root {
+  --ot-bg-color: white;
+  --ot-fg-color: green;
+  --ot-button-bg-primary: green;
+  --ot-button-bg-active: darkgreen;
+  --ot-button-fg: white;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --ot-bg-color: rgb(0, 64, 0);
+    --ot-fg-color: rgba(255, 255, 255, 0.75);
+
+    --ot-button-bg-primary: darkgreen;
+    --ot-button-bg-active: green;
+    --ot-button-fg: white;
+  }
+}
